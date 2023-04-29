@@ -1,0 +1,37 @@
+<!-- specifichiamo la versione di HTML per il browser. -->
+<!DOCTYPE html>
+
+<!-- inizio della pagina con tag <html> -->
+<!-- specificare sempre la lingua della pagina con l'attributo lang. -->
+<html lang="it">
+    <!-- Qua settiamo alcune impostazioni della pagina. -->
+    <head>
+        <meta charset="UTF-8">
+        <title>Primo Sito</title>
+
+        <!-- CSS external -->
+        <link rel="stylesheet" href="./styles.css">
+
+        <!-- CSS internal -->
+        <style>
+            h1 {
+                color: green;
+            }
+        </style>
+    </head>
+
+    <!-- Qua scriviamo il codice vero e proprio della pagina. -->
+    <body>
+        <h1 class="info">Titolo della pagina</h1>
+        <hr>
+
+        <!-- CSS in-line. -->
+        <h2 style="color: orangered;">Sezione con un paragrafo</h2>
+        <p>Ciao mondo!</p>
+        <hr>
+
+        <h2 class="info">Sezione con un immagine random</h2>
+        <img src="https://picsum.photos/200" alt="Immagine random">
+        <hr>
+    </body>
+</html>

@@ -1,0 +1,22 @@
+h2 {
+    color: azure;
+    text-align: center;
+    }
+
+h1 {
+    color: red;
+    }
+
+body {
+    background-color: aquamarine;
+}
+
+img {
+    border: 10px solid white;
+  }
+
+.info {
+    color: lightblue;
+    text-align: left;
+    border: 5px solid black;
+}
